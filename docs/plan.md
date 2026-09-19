@@ -99,10 +99,32 @@ The briefs (step 2) name these, so steps 3 and 4 must deliver them:
       `related:` to the assessments that test them
 - [x] 4. Lectures, plus the real deck for week 5, linked with `slides:`
 - [x] 5. People (convenor and tutor), home page and policies page
-- [ ] 6. Artwork: hero, share card and the two people photos. Only the hero
-      and card are still flagged by `check:evidence`: the photos were renamed
-      in step 5 (`ines-carrow.avif`, `sam-adeyemi.avif`), so the check no
-      longer sees them, but they are still the starter images
+- [ ] 6. Artwork: hero, share card and the two people photos. The hero and
+      card are done. `check:evidence` no longer flags the photos because they
+      were renamed in step 5, but they are still the starter images
+      - Hero and share card are drawn by `scripts/make-artwork.ts` (run
+        `node scripts/make-artwork.ts`; the card's text comes from
+        `src/course-config.ts`).
+      - The portraits come from an image model, to match the starter's style.
+        Save each as a square image (800×800 or larger) and ask the agent to
+        wire it in: it converts to `.avif`, replaces the file, and rewrites
+        `photoAlt` to describe what was actually drawn.
+      - `src/content/people/ines-carrow.avif`: "Two-ink risograph print
+        portrait, head and shoulders, three-quarter view, of a woman in her
+        fifties with short grey hair and reading glasses pushed up on her head,
+        wearing a dark cardigan over a collared shirt, calm and exacting
+        expression. Flat mustard-gold (#dcae4a) and near-black (#1b1714) inks
+        on warm cream paper (#f8eedb), coarse halftone shading, slight ink
+        misregistration, one flat gold rectangle behind the shoulder, plenty of
+        cream space. Square. No text."
+      - `src/content/people/sam-adeyemi.avif`: "Two-ink risograph print
+        portrait, head and shoulders, facing the viewer, of a young adult with
+        close-cropped hair, a denim jacket over a plain t-shirt, holding a
+        dog-eared paperback against their chest, patient and faintly amused
+        expression. Flat mustard-gold (#dcae4a) and near-black (#1b1714) inks
+        on warm cream paper (#f8eedb), coarse halftone shading, slight ink
+        misregistration, one flat gold rectangle behind the shoulder, plenty of
+        cream space. Square. No text."
 - [ ] 7. `spec/` checks: agree them with the student. Candidates: every outcome
       is taught and assessed; every seminar is tested by an assessment due
       after it; assessment weights sum to 100; twelve weeks; the deck is linked

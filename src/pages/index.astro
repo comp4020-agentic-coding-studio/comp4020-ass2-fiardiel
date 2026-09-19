@@ -6,16 +6,13 @@ import heroImage from "../assets/images/hero-home.avif";
 import { courseMeta } from "../course-config";
 import { learningOutcomes } from "../learning-outcomes";
 import { sessionLabels, siteConfig } from "../site-config";
-
-// STARTER_CONTENT: replace the hero artwork and its alt text below, then
-// remove this comment.
 ---
 
 <ContentLayout
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
   heroImage={heroImage}
-  heroImageAlt="A lecture theatre reduced to flat gold and black shapes, rows of seats sweeping past the frame, in a two-ink risograph print"
+  heroImageAlt="A two-ink map of continuity lines on cream paper: a black line with a taped splice that later turns gold, a branch drifting away from it, a gold line that splits into three and merges back into one, and a line that stops at a bar"
   {...siteConfig}
 >
   <ul class="course-tags" aria-label="Course tags">
