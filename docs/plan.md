@@ -45,7 +45,7 @@ By the end, a student can:
 | Assessment | Weight | Outcomes | Due |
 |---|---|---|---|
 | Continuity Audit | 25% | 1 | week 5 |
-| Continuity Briefing (seminar presentation, rostered weeks 5–11) | 10% | 2 | week 11 |
+| Continuity Briefing (seminar presentation, rostered weeks 6–11) | 10% | 2 | week 11 |
 | Retcon Proposal | 30% | 3, 1 | week 9 |
 | Capstone: Continuity Bible | 35% | 4, 2, 3 | week 12 |
 
@@ -72,6 +72,19 @@ outcome (constructive alignment).
 **Timing rule:** an assessment only tests weeks taught before its due date. The
 mapping above respects it, so keep it that way if weeks move.
 
+### What the assessment briefs promise the seminars
+
+The briefs (step 2) name these, so steps 3 and 4 must deliver them:
+
+- Seminars are on **Wednesdays**. The Briefing's due date is the week 11
+  seminar (19 May 2027). Weeks 1–5 start 22 Feb; the break is 29 Mar – 9 Apr;
+  weeks 6–12 start 12 Apr. Canberra is on +11:00 until 4 April.
+- Week 1 teaches three failure classes: **contradiction**, **orphan** and
+  **drift**, with the Mandarin reveal in _Iron Man 3_ as the worked example.
+- Week 2 covers what goes in a bible, and sets the Briefing rosters.
+- Week 11's seminar swaps Capstone bibles; week 12's studio runs the stranger
+  test.
+
 ## Build order (backward design; commit after each)
 
 - [x] Clone the repo, get the baseline `pnpm check` green
@@ -80,7 +93,7 @@ mapping above respects it, so keep it that way if weeks move.
 - [x] Course credits scoped to this repo
 - [x] 1. Course record (`src/course-config.ts`) and the outcomes, shown on the
       home page
-- [ ] 2. The four assessments (`src/content/assessments/`), with `outcomes:`
+- [x] 2. The four assessments (`src/content/assessments/`), with `outcomes:`
       and a marking model each
 - [ ] 3. The twelve seminars (`src/content/sessions/`), with `outcomes:` and
       `related:` to the assessments that test them
@@ -120,3 +133,8 @@ there is one.
   and the brief turned out to require it ("a position on what a good course
   is"). The student then asked for a second pass, which brought in Biggs and
   _Understanding by Design_ and gave the "coverage sin" framing.
+- 2026-09-19: drafting the Briefing showed its planned roster (weeks 5–11)
+  broke the plan's own timing rule, since week 5 is the first seminar that
+  teaches evaluation. The student moved it to weeks 6–11, and asked for each
+  assessment and seminar page to show the outcomes it serves, so the
+  alignment is visible to a reader rather than only in frontmatter.
