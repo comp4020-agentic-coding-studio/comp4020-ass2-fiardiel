@@ -125,7 +125,7 @@ The briefs (step 2) name these, so steps 3 and 4 must deliver them:
         on warm cream paper (#f8eedb), coarse halftone shading, slight ink
         misregistration, one flat gold rectangle behind the shoulder, plenty of
         cream space. Square. No text."
-- [ ] 7. `spec/` checks: agree them with the student. Candidates: every outcome
+- [x] 7. `spec/` checks: agree them with the student. Candidates: every outcome
       is taught and assessed; every seminar is tested by an assessment due
       after it; assessment weights sum to 100; twelve weeks; the deck is linked
       from its lecture.
