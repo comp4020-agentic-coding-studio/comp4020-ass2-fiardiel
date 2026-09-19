@@ -95,7 +95,7 @@ The briefs (step 2) name these, so steps 3 and 4 must deliver them:
       home page
 - [x] 2. The four assessments (`src/content/assessments/`), with `outcomes:`
       and a marking model each
-- [ ] 3. The twelve seminars (`src/content/sessions/`), with `outcomes:` and
+- [x] 3. The twelve seminars (`src/content/sessions/`), with `outcomes:` and
       `related:` to the assessments that test them
 - [ ] 4. Lectures, plus the real deck for week 5, linked with `slides:`
 - [ ] 5. People (convenor and tutor), home page and policies page
@@ -138,3 +138,9 @@ there is one.
   teaches evaluation. The student moved it to weeks 6–11, and asked for each
   assessment and seminar page to show the outcomes it serves, so the
   alignment is visible to a reader rather than only in frontmatter.
+- 2026-09-19: building the seminars changed three things in the week table.
+  Week 12 became _The Stranger Test_ (the student chose it over "Capstone
+  studio", since rule 2 asks for a named technique). Week 1 dropped the
+  "Orientation:" prefix. A per-outcome alignment check found week 6 teaches
+  outcome 1 but was only tested by the Capstone, which doesn't assess it, so
+  week 6 is now also tested by the Retcon Proposal.

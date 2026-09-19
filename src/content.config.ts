@@ -42,8 +42,7 @@ export const collections = {
         week: weekSchema,
         date: z.coerce.date(),
         teachers: teacherRefs.optional(),
-        // Optional until step 3 replaces the starter sessions.
-        outcomes: outcomeRefs.optional(),
+        outcomes: outcomeRefs,
       })
       .loose(),
   }),

@@ -29,9 +29,8 @@ const { Content } = await render(session);
     outcomes={session.data.outcomes}
     lead={`This ${sessionLabels.singular.toLowerCase()} works towards:`}
   />
-  <SpecList spec={session.data.spec}>
-    What you bring to the session. Written so a reader can tell whether it has
-    been met without asking you.
+  <SpecList spec={session.data.spec} heading="What to bring">
+    Have these done before the {sessionLabels.singular.toLowerCase()} starts.
   </SpecList>
   <TeachingTeam teachers={session.data.teachers} />
   <RelatedContent entry={session} collections={graphCollections} />
