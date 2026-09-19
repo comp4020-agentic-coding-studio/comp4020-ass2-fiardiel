@@ -18,7 +18,7 @@ credits from `.claude/settings.local.json`. Then say:
 ## Agreed decisions
 
 - **Course:** SLOP1467 _Continuity Engineering_, intro undergraduate (level 1,
-  `467` allocated). A full title or subtitle is still to be set in step 1.
+  `467` allocated). No subtitle: the essential question is the lead under it.
 - **Essential question:** _What does a long-running story owe the people who
   remember it?_
 - **Case studies:** MCU, CW Arrowverse, LEGO Ninjago. Voice rules are in
@@ -78,7 +78,7 @@ mapping above respects it, so keep it that way if weeks move.
 - [x] Research: the three example courses, Biggs, Wiggins & McTighe
 - [x] `CLAUDE.md` harness
 - [x] Course credits scoped to this repo
-- [ ] 1. Course record (`src/course-config.ts`) and the outcomes, shown on the
+- [x] 1. Course record (`src/course-config.ts`) and the outcomes, shown on the
       home page
 - [ ] 2. The four assessments (`src/content/assessments/`), with `outcomes:`
       and a marking model each

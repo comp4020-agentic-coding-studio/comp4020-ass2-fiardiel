@@ -4,6 +4,7 @@ import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import heroImage from "../assets/images/hero-home.avif";
 import { courseMeta } from "../course-config";
+import { learningOutcomes } from "../learning-outcomes";
 import { sessionLabels, siteConfig } from "../site-config";
 
 // STARTER_CONTENT: replace the hero artwork and its alt text below, then
@@ -20,6 +21,20 @@ import { sessionLabels, siteConfig } from "../site-config";
   <ul class="course-tags" aria-label="Course tags">
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
+
+  <h2>Learning outcomes</h2>
+  <p>
+    Upon successful completion, students will have the knowledge and skills to:
+  </p>
+  <ol class="outcomes">
+    {
+      learningOutcomes.map(({ verb, rest }) => (
+        <li>
+          <strong>{verb}</strong> {rest}
+        </li>
+      ))
+    }
+  </ol>
 
   <!-- STARTER_CONTENT: replace the authored page below, then remove this comment. -->
   <h2>What you will do</h2>
@@ -56,6 +71,10 @@ import { sessionLabels, siteConfig } from "../site-config";
     margin-block: 0 2rem;
     padding: 0;
     list-style: none;
+  }
+
+  .outcomes li + li {
+    margin-top: 0.5rem;
   }
 
   .course-tags li {
