@@ -1,0 +1,31 @@
+---
+import { learningOutcomes } from "../learning-outcomes";
+
+interface Props {
+  /** Outcome numbers from the entry's `outcomes:` frontmatter. */
+  outcomes?: number[];
+  /** One line saying how this page relates to the outcomes. */
+  lead: string;
+}
+
+const { outcomes = [], lead } = Astro.props;
+---
+
+{
+  outcomes.length > 0 && (
+    <section aria-labelledby="learning-outcomes">
+      <h2 id="learning-outcomes">Learning outcomes</h2>
+      <p>{lead}</p>
+      <ol>
+        {outcomes.map((number) => {
+          const { verb, rest } = learningOutcomes[number - 1];
+          return (
+            <li value={number}>
+              <strong>{verb}</strong> {rest}
+            </li>
+          );
+        })}
+      </ol>
+    </section>
+  )
+}

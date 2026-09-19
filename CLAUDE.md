@@ -97,9 +97,12 @@ They are why the course holds together, so don't trade them for speed.
 - **Dates:** every session, lecture and due date must fall between
   `startDate` and `endDate` in `course-config.ts`
   (`spec/data-integrity.test.ts`). Change them together.
-- **Custom frontmatter keys** (like `outcomes:`) pass validation and land in
-  that node's `meta` in the generated API. The reserved keys are `title`,
-  `description`, `tags`, `related`, `links`, `spec` and `published`.
+- **`outcomes:`** is declared in `src/content.config.ts`: a list of numbers
+  into `src/learning-outcomes.ts`, so an outcome that doesn't exist fails the
+  build. Pages render the outcome text from there. Never copy it into prose.
+- **Other custom frontmatter keys** pass validation and land in that node's
+  `meta` in the generated API. The reserved keys are `title`, `description`,
+  `tags`, `related`, `links`, `spec` and `published`.
 - **Starter content:** every placeholder carries a `STARTER_CONTENT` comment.
   Remove the comment in the same commit that replaces the fragment.
   `check:evidence` fails on any left over, and on the unchanged

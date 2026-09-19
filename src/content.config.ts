@@ -2,11 +2,14 @@ import { defineCollection, reference } from "astro:content";
 import { glob } from "astro/loaders";
 import { z } from "astro/zod";
 import { courseNodeSchema } from "astro-course-university/schemas";
+import { learningOutcomes } from "./learning-outcomes";
 
 const weekSchema = z.coerce.number().int().min(1).max(12);
 const courseNodeLoader = (dir: string) =>
   glob({ pattern: ["**/*.{md,mdx}", "!**/CLAUDE.md"], base: `src/content/${dir}` });
 const teacherRefs = z.array(reference("people")).min(1);
+// Outcome numbers, 1-based, into src/learning-outcomes.ts.
+const outcomeRefs = z.array(z.number().int().min(1).max(learningOutcomes.length)).min(1);
 
 const weightedMarking = z
   .object({
@@ -39,6 +42,8 @@ export const collections = {
         week: weekSchema,
         date: z.coerce.date(),
         teachers: teacherRefs.optional(),
+        // Optional until step 3 replaces the starter sessions.
+        outcomes: outcomeRefs.optional(),
       })
       .loose(),
   }),
@@ -51,6 +56,7 @@ export const collections = {
         due: z.coerce.date(),
         weight: z.coerce.number().positive().max(100),
         marking: z.discriminatedUnion("mode", [weightedMarking, holisticMarking]).optional(),
+        outcomes: outcomeRefs,
       })
       .loose(),
   }),
