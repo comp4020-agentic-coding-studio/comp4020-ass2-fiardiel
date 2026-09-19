@@ -6,6 +6,8 @@ description:
 week: 11
 date: 2027-05-19
 outcomes: [2]
+teachers:
+  - sam-adeyemi
 spec:
   - every MCU film and Disney+ series released in 2021, 2022 and 2023, with its release month
   - your Capstone bible, ready to hand to a stranger

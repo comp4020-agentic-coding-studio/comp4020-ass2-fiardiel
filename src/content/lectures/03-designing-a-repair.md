@@ -6,6 +6,8 @@ description:
 week: 3
 date: 2027-03-09
 outcomes: [3]
+teachers:
+  - ines-carrow
 related:
   - sessions/03-the-retcon
   - sessions/04-the-soft-reboot

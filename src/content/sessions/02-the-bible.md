@@ -6,6 +6,8 @@ description:
 week: 2
 date: 2027-03-03
 outcomes: [4]
+teachers:
+  - sam-adeyemi
 spec:
   - "every fact about Peter Parker's age and school year that Captain America: Civil War (2016) and Spider-Man: Homecoming (2017) establish"
   - a one-paragraph pitch for your Capstone universe, with three characters and one location

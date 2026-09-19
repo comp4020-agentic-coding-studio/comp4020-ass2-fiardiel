@@ -6,6 +6,8 @@ description:
 week: 2
 date: 2027-03-02
 outcomes: [4]
+teachers:
+  - ines-carrow
 related:
   - sessions/02-the-bible
   - sessions/10-paracanon

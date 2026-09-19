@@ -6,6 +6,8 @@ description:
 week: 1
 date: 2027-02-23
 outcomes: [1]
+teachers:
+  - ines-carrow
 related:
   - sessions/01-what-a-continuity-is
   - sessions/03-the-retcon

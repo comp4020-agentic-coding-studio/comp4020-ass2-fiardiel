@@ -6,6 +6,8 @@ description:
 week: 10
 date: 2027-05-12
 outcomes: [4]
+teachers:
+  - sam-adeyemi
 spec:
   - you have watched The LEGO Ninjago Movie (2017)
   - a one-paragraph draft of the canon policy for your Capstone universe

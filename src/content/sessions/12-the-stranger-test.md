@@ -6,6 +6,9 @@ description:
 week: 12
 date: 2027-05-26
 outcomes: [4]
+teachers:
+  - sam-adeyemi
+  - ines-carrow
 spec:
   - the one-page episode outline you wrote from the bible you were given in week 11
   - your own bible, with room to log what breaks

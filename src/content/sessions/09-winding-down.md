@@ -6,6 +6,8 @@ description:
 week: 9
 date: 2027-05-05
 outcomes: [2]
+teachers:
+  - sam-adeyemi
 spec:
   - you have watched the final episode of Arrow (2020) and the final episode of DC's Legends of Tomorrow (2022)
   - a list of the threads each one left open, and which of them the show chose to leave

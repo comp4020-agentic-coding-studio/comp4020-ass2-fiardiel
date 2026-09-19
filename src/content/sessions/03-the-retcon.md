@@ -6,6 +6,8 @@ description:
 week: 3
 date: 2027-03-10
 outcomes: [1, 3]
+teachers:
+  - sam-adeyemi
 spec:
   - "you have watched the vault scenes in Thor (2011) and Thor: Ragnarok (2017)"
   - one retcon from the MCU, the Arrowverse or Ninjago, with the scene it changed and the scene that changed it

@@ -6,6 +6,8 @@ description:
 week: 4
 date: 2027-03-17
 outcomes: [3]
+teachers:
+  - sam-adeyemi
 spec:
   - "you have watched the first episode of Ninjago: Dragons Rising (2023)"
   - a list of what that episode keeps from the earlier series, and what it stops mentioning

@@ -6,6 +6,8 @@ description:
 week: 5
 date: 2027-03-24
 outcomes: [2]
+teachers:
+  - sam-adeyemi
 spec:
   - you have watched all five parts of Crisis on Infinite Earths (2019–20)
   - one continuity problem Crisis settled, and one it created

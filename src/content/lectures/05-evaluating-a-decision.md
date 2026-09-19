@@ -6,6 +6,8 @@ description:
 week: 5
 date: 2027-03-23
 outcomes: [2]
+teachers:
+  - ines-carrow
 slides: /decks/evaluating-a-decision/
 related:
   - sessions/05-the-crossover-event

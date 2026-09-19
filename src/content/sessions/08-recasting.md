@@ -6,6 +6,8 @@ description:
 week: 8
 date: 2027-04-28
 outcomes: [3]
+teachers:
+  - sam-adeyemi
 spec:
   - you have watched Rhodey's first scene in Iron Man 2 (2010)
   - one recast from the MCU, the Arrowverse or Ninjago, and which of the four options it took

@@ -6,6 +6,8 @@ description:
 week: 7
 date: 2027-04-21
 outcomes: [3]
+teachers:
+  - sam-adeyemi
 spec:
   - "you have watched Spider-Man: No Way Home (2021)"
   - one contradiction in the MCU, the Arrowverse or Ninjago that a multiverse would fix, and one thing it would stop meaning

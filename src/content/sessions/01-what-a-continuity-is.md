@@ -6,6 +6,8 @@ description:
 week: 1
 date: 2027-02-24
 outcomes: [1]
+teachers:
+  - sam-adeyemi
 spec:
   - you have watched Iron Man (2008) and Iron Man 3 (2013)
   - one scene from the MCU, the Arrowverse or Ninjago that you think a later scene contradicts

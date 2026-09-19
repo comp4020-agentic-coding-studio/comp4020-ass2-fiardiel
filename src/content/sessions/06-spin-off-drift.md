@@ -6,6 +6,8 @@ description:
 week: 6
 date: 2027-04-14
 outcomes: [1, 4]
+teachers:
+  - sam-adeyemi
 spec:
   - you have watched the first episode of DC's Legends of Tomorrow (2016) and the last episode of its third season (2018)
   - one rule from your Capstone bible that a spin-off of your universe would most want to break
