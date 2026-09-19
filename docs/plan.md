@@ -98,9 +98,11 @@ The briefs (step 2) name these, so steps 3 and 4 must deliver them:
 - [x] 3. The twelve seminars (`src/content/sessions/`), with `outcomes:` and
       `related:` to the assessments that test them
 - [x] 4. Lectures, plus the real deck for week 5, linked with `slides:`
-- [ ] 5. People (convenor and tutor), home page and policies page
-- [ ] 6. Artwork: hero, share card and the two people photos (all four are
-      flagged by `check:evidence`)
+- [x] 5. People (convenor and tutor), home page and policies page
+- [ ] 6. Artwork: hero, share card and the two people photos. Only the hero
+      and card are still flagged by `check:evidence`: the photos were renamed
+      in step 5 (`ines-carrow.avif`, `sam-adeyemi.avif`), so the check no
+      longer sees them, but they are still the starter images
 - [ ] 7. `spec/` checks: agree them with the student. Candidates: every outcome
       is taught and assessed; every seminar is tested by an assessment due
       after it; assessment weights sum to 100; twelve weeks; the deck is linked
