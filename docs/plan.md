@@ -97,7 +97,7 @@ The briefs (step 2) name these, so steps 3 and 4 must deliver them:
       and a marking model each
 - [x] 3. The twelve seminars (`src/content/sessions/`), with `outcomes:` and
       `related:` to the assessments that test them
-- [ ] 4. Lectures, plus the real deck for week 5, linked with `slides:`
+- [x] 4. Lectures, plus the real deck for week 5, linked with `slides:`
 - [ ] 5. People (convenor and tutor), home page and policies page
 - [ ] 6. Artwork: hero, share card and the two people photos (all four are
       flagged by `check:evidence`)
@@ -144,3 +144,6 @@ there is one.
   "Orientation:" prefix. A per-outcome alignment check found week 6 teaches
   outcome 1 but was only tested by the Capstone, which doesn't assess it, so
   week 6 is now also tested by the Retcon Proposal.
+- 2026-09-19: the plan didn't say how many lectures. The student chose four,
+  one per learning outcome, each given the week its outcome is first taught,
+  over twelve weekly lectures that would have restated their seminars (rule 5).
