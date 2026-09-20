@@ -10,7 +10,11 @@ contact:
   Email about assessment, extensions, or anything your tutor could not resolve.
   Consultation is Tuesdays, 2–3 pm, after the lecture.
 photo: ./ines-carrow.avif
-photoAlt: A stylised portrait of a person in three-quarter view, flat gold and black shapes on warm cream, in a two-ink risograph print
+photoAlt:
+  A two-ink risograph portrait of a woman in her fifties with short grey hair
+  and reading glasses pushed up on her head, wearing a dark cardigan over a
+  collared shirt, calm and exacting expression, in flat mustard-gold and
+  near-black on warm cream paper
 ---
 
 Dr Carrow maintained the series bible for a long-running animated series for

@@ -10,7 +10,11 @@ contact:
   Ask in the seminar first. Email for roster changes, or for anything that
   cannot wait until next Wednesday.
 photo: ./sam-adeyemi.avif
-photoAlt: A stylised portrait of a person facing the viewer, flat gold and black shapes on warm cream, in a two-ink risograph print
+photoAlt:
+  A two-ink risograph portrait of a young adult with close-cropped hair,
+  facing the viewer, wearing a denim jacket over a plain t-shirt and holding a
+  dog-eared paperback against their chest, patient and faintly amused
+  expression, in flat mustard-gold and near-black on warm cream paper
 ---
 
 Sam is writing a thesis on paracanon in tie-in novels, and has read more of them
