@@ -10,14 +10,16 @@ outcomes: [2]
 marking:
   mode: holistic
   description:
-    The briefing is judged as one argument. A strong briefing names the decision
-    and the alternative the franchise passed over, says what each would have
-    cost its audience, and takes a side the seminar can dispute. Delivery counts
-    only as far as the argument survives it.
+    The briefing is judged as one argument, against the week's material rather
+    than against outside research. A strong briefing names the decision and the
+    alternative the franchise passed over, says what each would have cost its
+    audience, and takes a side the seminar can dispute. Follow the seminars and
+    you have what you need. Delivery counts only as far as the argument
+    survives it.
 spec:
   - delivered in your rostered seminar, in five minutes or less
   - one decision by one franchise, named with the title and year it landed in
-  - at least one alternative that was available to the franchise at the time, with evidence that it was
+  - at least one alternative the franchise could plausibly have taken instead, and why it was open to them
   - a one-page handout, submitted before the seminar starts
   - ends on a position, which option was better and for whom
 related:
@@ -37,7 +39,8 @@ one decision like these, rebuilds the alternative, and argues which was better.
 
 Then it says better for whom. A decision can suit the studio's release schedule
 and fail the viewer who watched every episode. Say which of them you are judging
-it for. Most briefings skip this, and it is the part that is marked hardest.
+it for. Most briefings skip it, and it is the difference between a summary and
+an argument.
 
 Both examples above are worked through in seminars, so choose another.
 
