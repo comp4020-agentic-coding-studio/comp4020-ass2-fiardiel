@@ -99,9 +99,9 @@ The briefs (step 2) name these, so steps 3 and 4 must deliver them:
       `related:` to the assessments that test them
 - [x] 4. Lectures, plus the real deck for week 5, linked with `slides:`
 - [x] 5. People (convenor and tutor), home page and policies page
-- [ ] 6. Artwork: hero, share card and the two people photos. The hero and
-      card are done. `check:evidence` no longer flags the photos because they
-      were renamed in step 5, but they are still the starter images
+- [x] 6. Artwork: hero, share card and the two people photos. All four done —
+      the portraits were generated from the prompts below and wired in
+      (`125b676`).
       - Hero and share card are drawn by `scripts/make-artwork.ts` (run
         `node scripts/make-artwork.ts`; the card's text comes from
         `src/course-config.ts`).
