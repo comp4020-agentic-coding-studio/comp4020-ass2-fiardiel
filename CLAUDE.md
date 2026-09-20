@@ -59,8 +59,12 @@ They are why the course holds together, so don't trade them for speed.
 - None of these, ever: "delve", "tapestry", "landscape", "in today's",
   "it's important to note", "Moreover,", "Furthermore,", "a testament to",
   "navigate the complexities", "rich", "journey".
-- Voice isn't tested and can't be. Read each page as a prospective student
-  before you call it done.
+- The banned words above are the one part of voice a check can hold:
+  `spec/course-promises.test.ts` fails the build on any of them. That check is
+  a tripwire for the most obvious tics, not a verdict on the prose — it passing
+  means nothing worse than "no clichés", never "this page is good". Everything
+  else about voice is judgement. Read each page as a prospective student before
+  you call it done.
 
 ## How to work in here
 

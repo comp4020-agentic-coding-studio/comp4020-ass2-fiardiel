@@ -100,6 +100,10 @@ describe("design rules", () => {
   });
 });
 
+// The only part of voice worth automating. A regex catches the tics an agent
+// reaches for by default; it cannot tell whether a page says anything. Green
+// here means "no clichés", never "this reads well" — that judgement is the
+// student's, and CLAUDE.md says so rather than pretending this check covers it.
 describe("voice", () => {
   const banned = [/\bdelve/i, /\btapestry\b/i, /\blandscape\b/i, /\bin today's\b/i, /\bit's important to note\b/i,
     /\bMoreover,/, /\bFurthermore,/, /\ba testament to\b/i, /\bnavigate the complexities\b/i, /\brich\b/i, /\bjourney\b/i];
